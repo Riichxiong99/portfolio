@@ -1,35 +1,3 @@
-// function Contact() {
-//   return (
-//     <div id="contact" style={{ minHeight: '100vh', padding: '100px 48px' }}>
-//       <h2>Contact</h2>
-//       <p>I'm currently open to opportunities — feel free to reach out.</p>
-
-//       <form className="contact-form">
-//         <div className="form-group">
-//           <label>Name</label>
-//           <input type="text" placeholder="Your name" />
-//         </div>
-
-//         <div className="form-group">
-//           <label>Email</label>
-//           <input type="email" placeholder="your@email.com" />
-//         </div>
-
-//         <div className="form-group">
-//           <label>Message</label>
-//           <textarea rows="5" placeholder="What's on your mind?" />
-//         </div>
-
-//         <button type="submit">Send message</button>
-//       </form>
-
-//     </div>
-//   )
-// }
-
-// export default Contact
-
-
 
 import { useState } from 'react'
 
