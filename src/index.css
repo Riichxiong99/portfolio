@@ -250,6 +250,34 @@ footer {
 }
 
 
+/* Tech Stack */
+.tech-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(90px, 1fr));
+  gap: 16px;
+  margin-top: 32px;
+}
+
+.tech-tile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  padding: 16px 8px;
+  border: 1px solid #C4BFB3;
+}
+
+.tech-tile i {
+  font-size: 36px;
+}
+
+.tech-tile span {
+  font-size: 11px;
+  color: #6b6a65;
+  letter-spacing: 0.04em;
+  text-align: center;
+}
+
 /* Scrollbar */
 ::-webkit-scrollbar {
   width: 6px;
