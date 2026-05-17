@@ -252,23 +252,23 @@ footer {
 
 /* Tech Stack */
 .tech-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(90px, 1fr));
-  gap: 16px;
+  display: flex;
+  flex-direction: column;
   margin-top: 32px;
 }
 
+.tech-row {
+  display: flex;
+  border-bottom: 1px solid #C4BFB3;
+}
+
 .tech-tile {
+  flex: 0 0 calc(100% / 7);
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 8px;
   padding: 16px 8px 12px;
-  border-bottom: 1px solid #C4BFB3;
-}
-
-.tech-tile i {
-  font-size: 36px;
 }
 
 .tech-tile span {

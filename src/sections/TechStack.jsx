@@ -23,15 +23,22 @@ const techs = [
   { src: `${BASE}/linux/linux-original.svg`, label: 'Linux' },
 ]
 
+const rows = []
+for (let i = 0; i < techs.length; i += 7) rows.push(techs.slice(i, i + 7))
+
 function TechStack() {
   return (
     <div id="work" className="fade-section" style={{ minHeight: '100vh', padding: '100px 48px' }}>
       <h2>Tech Stack</h2>
       <div className="tech-grid">
-        {techs.map(({ src, label }) => (
-          <div key={label} className="tech-tile">
-            <img src={src} alt={label} width="36" height="36" />
-            <span>{label}</span>
+        {rows.map((row, i) => (
+          <div key={i} className="tech-row">
+            {row.map(({ src, label }) => (
+              <div key={label} className="tech-tile">
+                <img src={src} alt={label} width="36" height="36" />
+                <span>{label}</span>
+              </div>
+            ))}
           </div>
         ))}
       </div>
