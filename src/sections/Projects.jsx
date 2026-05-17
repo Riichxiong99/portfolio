@@ -3,9 +3,9 @@ function Projects() {
     <div id="projects" className="fade-section" style={{ minHeight: '100vh', padding: '100px 48px' }}>
       <h2>Projects</h2>
 
-      <a href="https://github.com/rxa14/MyStudyTrackingApp" target="_blank" rel="noreferrer" className="project-card">
+      <a href="https://github.com/Riichxiong99/LemonStudies" target="_blank" rel="noreferrer" className="project-card">
         <h3>Lemon Studies <i className="fa-brands fa-github"></i></h3>
-        <p>A study app with a Pomodoro timer, task-based to-do list, and background music integration to support focused study sessions. Built with a SQLite backend for persistent storage and designed in Figma before implementation.</p>
+        <p>A study app with a Pomodoro timer, task-based to-do list, and background music integration to support focused study sessions. Built with a SQLite backend for persistent storage and designed in Figma.</p>
         <div className="tags">
           <span className="tag">C++</span>
           <span className="tag">QML</span>
@@ -14,14 +14,48 @@ function Projects() {
         </div>
       </a>
 
-      <a href="https://github.com/rxa14" target="_blank" rel="noreferrer" className="project-card">
+      <a href="https://github.com/Riichxiong99/FocusLauncher" target="_blank" rel="noreferrer" className="project-card">
         <h3>Focus Launcher <i className="fa-brands fa-github"></i></h3>
-        <p>A custom Android home screen launcher built as a distraction-blocking productivity tool. Architected with MVVM and Clean Architecture, using UsageStatsManager to monitor per-app usage and enforce configurable time limits.</p>
+        <p>  A custom Android home screen launcher built as a distraction-blocking productivity tool. Features timed focus sessions that actively monitor foreground apps via UsageStatsManager and intercept blocked apps in real time.
+          Supports per-app friction gates, including forced delays, name typing, and guided breathing, to add intentional resistance before opening distracting apps.</p>
         <div className="tags">
           <span className="tag">Kotlin</span>
           <span className="tag">Jetpack Compose</span>
           <span className="tag">MVVM</span>
           <span className="tag">Android</span>
+        </div>
+      </a>
+
+
+      <a href="https://github.com/Riichxiong99/Bug-Tracker" target="_blank" rel="noreferrer" className="project-card">
+        <h3>Bug Tracking Program <i className="fa-brands fa-github"></i></h3>
+        <p>A console-based bug and feature tracking system for managing bugs, feature requests, products, and stakeholder contacts. Built in C++ with a menu-driven interface and binary file persistence for fast, structured data storage.</p>
+        <div className="tags">
+          <span className="tag">C++</span>
+          <span className="tag">CMake</span>
+          <span className="tag">File I/O</span>
+        </div>
+      </a>
+
+      <a href="https://github.com/Riichxiong99/dash-cdn-proxy" target="_blank" rel="noreferrer" className="project-card">
+        <h3>DASH CDN Proxy <i className="fa-brands fa-github"></i></h3>
+        <p>A content delivery network implementing dynamic adaptive streaming (DASH) with an intelligent source-selection proxy that routes client requests to the optimal server based on real-time bandwidth and latency measurements, supporting up to 100 concurrent users with zero failures after threading and streaming optimizations.</p>
+        <div className="tags">
+          <span className="tag">Python</span>
+          <span className="tag">HTTP</span>
+          <span className="tag">Locust</span>
+          <span className="tag">Load Balancing</span>
+
+        </div>
+      </a>
+
+      <a href="https://github.com/Riichxiong99/One-vs.-N-battleship" target="_blank" rel="noreferrer" className="project-card">
+        <h3>One-vs.-N Battleship <i className="fa-brands fa-github"></i></h3>
+        <p>A Java battleship game where one player simultaneously competes against up to N computer opponents. Uses a backtracking algorithm to guarantee valid, non-overlapping ship placements across all boards, with a GUI and configurable opponent count via command-line arguments.</p>
+        <div className="tags">
+          <span className="tag">Java</span>
+          <span className="tag">GUI</span>
+          <span className="tag">Algorithms</span>
         </div>
       </a>
 
@@ -36,13 +70,14 @@ function Projects() {
         </div>
       </a>
 
-      <a href="https://github.com/rxa14" target="_blank" rel="noreferrer" className="project-card">
-        <h3>Multi-threaded TCP/HTTP Server <i className="fa-brands fa-github"></i></h3>
-        <p>A concurrent TCP server handling multiple simultaneous client connections through multi-threading. Features an HTTP request parser and a caching mechanism that improved response times by 50%.</p>
+      <a href="https://github.com/Riichxiong99/Multithreaded-HTTP-1.1-Server-Caching-Proxy-over-TCP-Sockets" target="_blank" rel="noreferrer" className="project-card">
+        <h3> Multithreaded HTTP/1.1 Server & Caching Proxy over TCP Sockets <i className="fa-brands fa-github"></i></h3>
+        <p>Built from scratch using raw TCP sockets and no external libraries, implementing a multithreaded HTTP/1.1 server that serves static files with conditional request support, path traversal protection, and proper status code handling. Paired with a multithreaded caching proxy that forwards requests to origin servers, maintains a thread-safe in-memory cache, and revalidates stale entries via If-Modified-Since to reduce redundant transfers.</p>
         <div className="tags">
           <span className="tag">Python</span>
           <span className="tag">Socket Programming</span>
           <span className="tag">Multithreading</span>
+          <span className="tag">HTTP/1.1</span>
         </div>
       </a>
 
@@ -66,15 +101,11 @@ function Projects() {
         </div>
       </a>
 
-      <a href="https://github.com/rxa14" target="_blank" rel="noreferrer" className="project-card">
-        <h3>Bug Tracking Program <i className="fa-brands fa-github"></i></h3>
-        <p>A C++-based bug tracking system with black-box and white-box testing, fixed-length binary record storage for fast random access, and comprehensive documentation including UML diagrams.</p>
-        <div className="tags">
-          <span className="tag">C++</span>
-          <span className="tag">UML</span>
-          <span className="tag">Unit Testing</span>
-        </div>
-      </a>
+
+
+
+
+
 
     </div>
   )
