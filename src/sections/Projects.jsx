@@ -81,7 +81,18 @@ function Projects() {
         </div>
       </a>
 
-      <a href="https://github.com/rxa14" target="_blank" rel="noreferrer" className="project-card">
+      <a href="https://github.com/beigahmadi/Anomalies_Detection_using_HMM" target="_blank" rel="noreferrer" className="project-card">
+        <h3>Cybersecurity Anomaly Detection <i className="fa-brands fa-github"></i></h3>
+        <p>Applied multivariate Hidden Markov Models (HMM) to detect anomalies in household electricity consumption time-series data. Used PCA to reduce 7 features to 2 key signals, trained models across 4–13 hidden states, and selected the optimal 7-state model via Bayesian Information Criterion (BIC). Achieved reliable anomaly detection with log-likelihood deviations of 4.8–10.0 units above threshold.</p>
+        <div className="tags">
+          <span className="tag">R</span>
+          <span className="tag">HMM</span>
+          <span className="tag">PCA</span>
+          <span className="tag">Time-Series</span>
+        </div>
+      </a>
+
+      {/* <a href="https://github.com/rxa14" target="_blank" rel="noreferrer" className="project-card">
         <h3>Cybersecurity Engineering <i className="fa-brands fa-github"></i></h3>
         <p>A collection of security projects including a stateful firewall using Scapy, Android APK reverse engineering, a padding oracle attack implementation, and a mock stack buffer overflow exploit.</p>
         <div className="tags">
@@ -90,16 +101,9 @@ function Projects() {
           <span className="tag">Android</span>
           <span className="tag">Linux</span>
         </div>
-      </a>
+      </a> */}
 
-      <a href="https://github.com/rxa14" target="_blank" rel="noreferrer" className="project-card">
-        <h3>Cybersecurity Anomaly Detection <i className="fa-brands fa-github"></i></h3>
-        <p>Anomaly detection on household electricity consumption data using z-score analysis and correlation-based filtering, with visualizations to enable interpretability for non-technical stakeholders.</p>
-        <div className="tags">
-          <span className="tag">Python</span>
-          <span className="tag">Data Analysis</span>
-        </div>
-      </a>
+      
 
 
 
