@@ -1,15 +1,3 @@
-// function Hero() {
-//   return (
-//     <div id="hero" style={{ height: '100vh', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }}>
-//       <h1>Richard Xiong</h1>
-//       <p>Computer Science Student</p>
-//       <a href="#work"> See my work</a>
-//     </div>
-//   )
-// }
-
-// export default Hero
-
 import { useEffect, useRef, useState } from 'react'
 
 function Hero() {
@@ -102,7 +90,7 @@ function Hero() {
       <p style={{ opacity: showText ? 1 : 0, transition: 'opacity 800ms ease 200ms' }}>
         Computer Science Student based in Vancouver
       </p>
-      <a href="#work" style={{ opacity: showText ? 1 : 0, transition: 'opacity 800ms ease 400ms' }}>
+      <a href="#projects" style={{ opacity: showText ? 1 : 0, transition: 'opacity 800ms ease 400ms' }}>
         See my work
       </a>
     </div>
