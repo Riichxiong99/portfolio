@@ -4,7 +4,7 @@ import About from './sections/About'
 import Contact from './sections/Contact'
 import Hero from './sections/Hero'
 import Projects from './sections/Projects'
-import Work from './sections/Work'
+import TechStack from './sections/TechStack'
 
 import BackToTop from './components/BackToTop'
 import Footer from './components/Footer'
@@ -49,7 +49,7 @@ function App() {
       <Hero />
       <About />
       <Projects />
-      <Work />
+      <TechStack />
       <Contact />
       <BackToTop />
       <Footer />
