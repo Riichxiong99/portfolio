@@ -3,16 +3,20 @@ function Projects() {
     <div id="projects" className="fade-section" style={{ minHeight: '100vh', padding: '100px 48px' }}>
       <h2>Projects</h2>
 
-      <a href="https://github.com/Riichxiong99/LemonStudies" target="_blank" rel="noreferrer" className="project-card">
-        <h3>Lemon Studies <i className="fa-brands fa-github"></i></h3>
-        <p>A study app with a Pomodoro timer, task-based to-do list, and background music integration to support focused study sessions. Built with a SQLite backend for persistent storage and designed in Figma.</p>
+
+      <a href="https://github.com/Riichxiong99/Job-Application-Tracker-API-" target="_blank" rel="noreferrer" className="project-card">
+        <h3>Job Application Tracker API <i className="fa-brands fa-github"></i></h3>
+        <p>A JWT-secured RESTful API for tracking job applications through the hiring process, with per-resource ownership checks and a validated 9-state application lifecycle that rejects invalid status transitions. Tested with JUnit, Mockito, and TestContainers against a live Dockerized PostgreSQL instance, automated through a GitHub Actions CI/CD pipeline, and deployed to Railway with a managed database.</p>
         <div className="tags">
-          <span className="tag">C++</span>
-          <span className="tag">QML</span>
-          <span className="tag">SQLite</span>
-          <span className="tag">Figma</span>
+          <span className="tag">Java</span>
+          <span className="tag">Spring Boot</span>
+          <span className="tag">PostgreSQL</span>
+          <span className="tag">Docker</span>
+          <span className="tag">CI/CD</span>
         </div>
       </a>
+
+
 
       <a href="https://github.com/Riichxiong99/FocusLauncher" target="_blank" rel="noreferrer" className="project-card">
         <h3>Focus Launcher <i className="fa-brands fa-github"></i></h3>
@@ -23,17 +27,6 @@ function Projects() {
           <span className="tag">Jetpack Compose</span>
           <span className="tag">MVVM</span>
           <span className="tag">Android</span>
-        </div>
-      </a>
-
-
-      <a href="https://github.com/Riichxiong99/Bug-Tracker" target="_blank" rel="noreferrer" className="project-card">
-        <h3>Bug Tracking Program <i className="fa-brands fa-github"></i></h3>
-        <p>A console-based bug and feature tracking system for managing bugs, feature requests, products, and stakeholder contacts. Built in C++ with a menu-driven interface and binary file persistence for fast, structured data storage.</p>
-        <div className="tags">
-          <span className="tag">C++</span>
-          <span className="tag">CMake</span>
-          <span className="tag">File I/O</span>
         </div>
       </a>
 
@@ -48,6 +41,45 @@ function Projects() {
 
         </div>
       </a>
+
+
+
+      <a href="https://github.com/Riichxiong99/Multithreaded-HTTP-1.1-Server-Caching-Proxy-over-TCP-Sockets" target="_blank" rel="noreferrer" className="project-card">
+        <h3> Multithreaded HTTP/1.1 Server & Caching Proxy over TCP Sockets <i className="fa-brands fa-github"></i></h3>
+        <p>Built from scratch using raw TCP sockets and no external libraries, implementing a multithreaded HTTP/1.1 server that serves static files with conditional request support, path traversal protection, and proper status code handling. Paired with a multithreaded caching proxy that forwards requests to origin servers, maintains a thread-safe in-memory cache, and revalidates stale entries via If-Modified-Since to reduce redundant transfers.</p>
+        <div className="tags">
+          <span className="tag">Python</span>
+          <span className="tag">Socket Programming</span>
+          <span className="tag">Multithreading</span>
+          <span className="tag">HTTP/1.1</span>
+        </div>
+      </a>
+
+
+
+      <a href="https://github.com/Riichxiong99/LemonStudies" target="_blank" rel="noreferrer" className="project-card">
+        <h3>Lemon Studies <i className="fa-brands fa-github"></i></h3>
+        <p>A study app with a Pomodoro timer, task-based to-do list, and background music integration to support focused study sessions. Built with a SQLite backend for persistent storage and designed in Figma.</p>
+        <div className="tags">
+          <span className="tag">C++</span>
+          <span className="tag">QML</span>
+          <span className="tag">SQLite</span>
+          <span className="tag">Figma</span>
+        </div>
+      </a>
+
+
+      <a href="https://github.com/Riichxiong99/Bug-Tracker" target="_blank" rel="noreferrer" className="project-card">
+        <h3>Bug Tracking Program <i className="fa-brands fa-github"></i></h3>
+        <p>A console-based bug and feature tracking system for managing bugs, feature requests, products, and stakeholder contacts. Built in C++ with a menu-driven interface and binary file persistence for fast, structured data storage.</p>
+        <div className="tags">
+          <span className="tag">C++</span>
+          <span className="tag">CMake</span>
+          <span className="tag">File I/O</span>
+        </div>
+      </a>
+
+
 
       <a href="https://github.com/Riichxiong99/One-vs.-N-battleship" target="_blank" rel="noreferrer" className="project-card">
         <h3>One-vs.-N Battleship <i className="fa-brands fa-github"></i></h3>
@@ -70,16 +102,7 @@ function Projects() {
         </div>
       </a>
 
-      <a href="https://github.com/Riichxiong99/Multithreaded-HTTP-1.1-Server-Caching-Proxy-over-TCP-Sockets" target="_blank" rel="noreferrer" className="project-card">
-        <h3> Multithreaded HTTP/1.1 Server & Caching Proxy over TCP Sockets <i className="fa-brands fa-github"></i></h3>
-        <p>Built from scratch using raw TCP sockets and no external libraries, implementing a multithreaded HTTP/1.1 server that serves static files with conditional request support, path traversal protection, and proper status code handling. Paired with a multithreaded caching proxy that forwards requests to origin servers, maintains a thread-safe in-memory cache, and revalidates stale entries via If-Modified-Since to reduce redundant transfers.</p>
-        <div className="tags">
-          <span className="tag">Python</span>
-          <span className="tag">Socket Programming</span>
-          <span className="tag">Multithreading</span>
-          <span className="tag">HTTP/1.1</span>
-        </div>
-      </a>
+
 
       <a href="https://github.com/beigahmadi/Anomalies_Detection_using_HMM" target="_blank" rel="noreferrer" className="project-card">
         <h3>Cybersecurity Anomaly Detection <i className="fa-brands fa-github"></i></h3>
@@ -103,7 +126,7 @@ function Projects() {
         </div>
       </a> */}
 
-      
+
 
 
 
